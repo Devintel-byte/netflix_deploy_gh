@@ -22,6 +22,14 @@
       "image": "/images/misc/home-imac.jpg",
       "alt": "Money Heist on Netflix",
       "direction": "row"
+    },
+    {
+      "id": 4,
+      "title": "Create profiles for kids.",
+      "subTitle": "Send kids on adventures with their favorite characters in a space made just for them- free with your membership.",
+      "image": "/images/misc/kids-show1.jpg",
+      "alt": "The kids show",
+      "direction": "row-reverse"
     }
   ]
   
