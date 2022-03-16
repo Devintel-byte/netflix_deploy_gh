@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Item = styled.div`
   display: flex;
@@ -11,7 +11,7 @@ export const Item = styled.div`
 export const Inner = styled.div`
   display: flex;
   align-items: center;
-  flex-direction: ${({ direction}) => direction};
+  flex-direction: ${({ direction }) => direction};
   justify-content: space-between;
   max-width: 1100px;
 
@@ -31,7 +31,13 @@ export const Pane = styled.div`
   }
 `;
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  @media (max-width: 1000px) {
+    ${Item}: last-of-type h2{
+      margin-bottom: 50px;
+    }
+  }
+`;
 
 export const Title = styled.h1`
   font-size: 50px;
@@ -56,6 +62,4 @@ export const SubTitle = styled.h2`
 export const Image = styled.img`
   max-width: 100%;
   height: auto;
-
 `;
-
