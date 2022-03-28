@@ -2,12 +2,10 @@ import styled from 'styled-components/macro';
 
 export const Container = styled.div`
   display: flex;
-  margin: 0 auto;
-  max-width: 950px;
-  padding-top: 0.85rem;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin-top: 20px;
+  flex-wrap: wrap;
 
   @media (max-width: 1000px) {
       flex-direction: column;
@@ -16,15 +14,11 @@ export const Container = styled.div`
 `;
 
 export const Input = styled.input`
-  max-width: 400px;
+  max-width: 450px;
   width: 100%;
   border: 0;
   padding: 10px;
-  align-item: center;
-  margin-bottom: 5px;
-  margin-left: 75px;
-  margin-right: 45px;
-  height: 30px;
+  height: 50px;
   border-sizing: border-box;
 `;
 
@@ -34,8 +28,8 @@ export const Button = styled.button`
   height: 70px;
   background: #e50914;
   color: white;
-  padding: 0 32px;
-  font-size: 24px;
+  padding: 0 42px;
+  font-size: 26px;
   border: 0;
   cursor: pointer;
 
@@ -65,7 +59,6 @@ export const Text = styled.p`
   font-size: 18px;
   color: white;
   text-align: center;
-  padding-bottom: 1px;
   
   @media (max-width: 600px) {
       font-size: 16px;
