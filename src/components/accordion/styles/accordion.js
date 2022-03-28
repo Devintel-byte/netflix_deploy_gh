@@ -7,8 +7,7 @@ export const Container = styled.div`
 
 export const Inner = styled.div`
   display: flex;
-  padding: 70px 110px;
-  -webkit-font-smoothing: antialiased;
+  padding: 70px 45px;
   flex-direction: column;
   max-width: 815px;
   margin: auto;
@@ -16,14 +15,14 @@ export const Inner = styled.div`
 
 export const Item = styled.div`
   color: white;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   max-width: 670px;
 
   &: first-of-type {
-      margin-top: 3em;
+      margin-top: 1.5rem;
   }
 `;
-
+ 
 export const Body = styled.div`
   max-height: 1200px;
   transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
@@ -32,7 +31,7 @@ export const Body = styled.div`
   background: #303030;
   white-space: pre-wrap;
   user-select: none;
-  font-size: 26px;
+  font-size: 24px;
   padding: 0.8em 2.2em 0.8em 1.2em;
 `;
 
@@ -41,7 +40,7 @@ export const Header = styled.div`
   justify-content: space-between;
   cursor: pointer;
   margin-bottom: 1px;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: normal;
   background: #303030;
   padding: 0.8em 1.2em;
@@ -63,10 +62,6 @@ export const Header = styled.div`
 `;
 
 
-export const Frame = styled.div`
-  margin-bottom: 40px;
-`;
-
 export const Title = styled.h1`
   font-size: 2.5rem;
   line-height: 1.1;
@@ -74,8 +69,9 @@ export const Title = styled.h1`
   color: white;
   margin-top: auto;
   margin-bottom: 0.5rem;
+  -webkit-font-smoothing: antialiased;
 
   @media (max-width: 600px) {
-      font-size: 35px;
+      font-size: 24px;
   }
 `;
