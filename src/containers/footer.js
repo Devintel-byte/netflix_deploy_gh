@@ -5,7 +5,6 @@ export function FooterContainer () {
     return (
         <Footer>
            <Footer.Title>Questions? Contact us.</Footer.Title> 
-           <Footer.Break />
              <Footer.Row>
                  <Footer.Column>
                      <Footer.Link href='#'>FAQ</Footer.Link>
