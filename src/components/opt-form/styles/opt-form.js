@@ -14,11 +14,11 @@ export const Container = styled.div`
 `;
 
 export const Input = styled.input`
-  max-width: 450px;
+  max-width: 380px;
   width: 100%;
   border: 0;
   padding: 10px;
-  height: 40px;
+  height: 35px;
   outline: none;
   border-sizing: border-box;
 `;
@@ -26,11 +26,11 @@ export const Input = styled.input`
 export const Button = styled.button`
   display: flex;
   align-items: center;
-  height: 60px;
+  height: 55px;
   background: #e50914;
   color: white;
-  padding: 0 42px;
-  font-size: 26px;
+  padding: 0 38px;
+  font-size: 24px;
   border: 0;
   cursor: pointer;
 
