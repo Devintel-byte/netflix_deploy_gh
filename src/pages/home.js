@@ -11,8 +11,10 @@ export default function Home() {
         <>
         <HeaderContainer>
             <Feature>
-                <Feature.Title>Unlimited movies, TV shows, and more.</Feature.Title>
-                <Feature.SubTitle>Watch anywhere. Cancel anytime.</Feature.SubTitle>
+                <Feature.Frame>
+                  <Feature.Title>Unlimited movies, TV shows, and more.</Feature.Title>
+                  <Feature.SubTitle>Watch anywhere. Cancel anytime.</Feature.SubTitle>
+                </Feature.Frame>
             <OptForm>
                 <OptForm.Text>
                     Ready to watch? Enter your email to create or restart your membership.

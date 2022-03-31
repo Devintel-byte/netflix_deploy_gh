@@ -8,8 +8,6 @@ export const Background = styled.div`
   '../images/misc/home-bg-img.jpg')}) top left / cover no-repeat;
 `;
 
-export const Frame = styled.div``;
-
 export const Container = styled.div`
   display: flex;
   margin: 0 54px;
