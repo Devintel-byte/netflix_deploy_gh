@@ -10,9 +10,9 @@ export const Background = styled.div`
 
 export const Container = styled.div`
   display: flex;
-  margin: 0 54px;
-  height: 60px;
-  padding: 15px 0;
+  margin: 0 35px;
+  height: 50px;
+  padding: 15px 0 40px 0;
   justify-content: space-between;
   align-items: center;
 
@@ -26,8 +26,8 @@ export const Container = styled.div`
 `;
 
 export const Logo = styled.img`
-  height: 48px;
-  width: 150px;
+  height: 60px;
+  width: 160px;
   margin-right: 40px;
  
   @media (min-width: 1449px) {
