@@ -1,7 +1,7 @@
 {
   "name": "netflix",
   "version": "0.1.0",
-  "homepage": "https://devintel-byte.github.io/netflix_deploy_gh",
+  "homepage": "https://devintel-byte.github.io/netflix-clone",
   "private": true,
   "dependencies": {
     "firebase": "^9.6.10",
