@@ -6,12 +6,17 @@ export const Container = styled.div`
   display: flex;
   padding: 45px 8px 2px 50px;
   margin: 0 10em;
-  max-width: 1000px;
   flex-direction: column;
   bottom: 0;
 
   @media (max-width: 1000px) {
       padding: 70px 30px;
+  }
+
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) { 
+    border-bottom: none;
+    margin: 0 auto;
+    padding: 35px 25px 0;
   }
 `;
 
@@ -33,21 +38,37 @@ export const Row = styled.div`
 
 export const Link = styled.a`
   margin-bottom: 16px;
-  font-size: 12px;
-  text-decoration: none;
-  color: #757575
+  text-align: center;
+  font-size: 13px;
+
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) { 
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #757575;
+  
 `;
 
 export const Title = styled.p`
   font-size: 15px;
   margin-bottom: 35px;
   color: #757575;
+  font-weight: 800;
+
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+    text-align: center;
+  }
 `;
 
 export const Text = styled.h2`
   font-size: 13px;
   margin-bottom: 40px;
   color: #757575;
+
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+    text-align: center;
+  }
+
 `;
 
 export const Break = styled.p`

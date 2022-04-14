@@ -33,6 +33,10 @@ export const Body = styled.div`
   user-select: none;
   font-size: 24px;
   padding: 0.8em 2.2em 0.8em 1.2em;
+
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+    font-size: 16px;
+}
 `;
 
 export const Header = styled.div`

@@ -11,6 +11,12 @@ export const Container = styled.div`
       flex-direction: column;
       align-items: center;
   }
+
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+      flex-direction: column;
+      align-items: center;
+      padding: 0 5%;
+  }
 `;
 
 export const Input = styled.input`
@@ -21,10 +27,18 @@ export const Input = styled.input`
   height: 35px;
   outline: none;
   border-sizing: border-box;
+
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+    height: 30px;
+    margin-top: 5px;
+    padding: 10px 5px 10px 5px;
+    width: 100%;
+    box-shadow: none;
+}
 `;
 
 export const Button = styled.button`
-  display: flex;
+  display: inline-flex;
   align-items: center;
   height: 55px;
   background: #e50914;
@@ -51,8 +65,27 @@ export const Button = styled.button`
       width: 18px;
 
     @media (max-width: 1000px) {
-        width: 16px;
+        width: 12px;
     }
+  }
+
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) { 
+    font-size: 16px;
+    min-height: 40px;
+    vertical-align: middle;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: .1px;
+    align-items: center;
+    margin: 1em auto;
+    padding: 0 1em;
+    line-height: initial;
+    width: auto;
+    user-select: none;
+    border-radius: 2px;
+    border: 0;
+    border-sizing: border-box;
+    text-align: center;
   }
 `;
 
@@ -61,9 +94,12 @@ export const Text = styled.p`
   color: white;
   text-align: center;
   
-  @media (max-width: 600px) {
-      font-size: 16px;
-      line-height: 22px;
+  
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+    padding: 0 2%;
+    max-width: 450px;
+    margin: 0 auto;
+    font-weight: 400;
   }
 `;
 
