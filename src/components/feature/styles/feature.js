@@ -13,6 +13,7 @@ export const Container = styled.div`
     position: relative;
     margin: 0 auto;
     z-index: 1;
+    font-size: 1.25rem;
   }
 `;
 

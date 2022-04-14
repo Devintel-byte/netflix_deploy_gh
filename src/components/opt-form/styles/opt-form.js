@@ -8,19 +8,19 @@ export const Container = styled.div`
   flex-wrap: wrap;
 
   @media (max-width: 1000px) {
-      flex-direction: column;
-      align-items: center;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    
   }
 
   @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
       flex-direction: column;
       align-items: center;
-      padding: 0 5%;
   }
 `;
 
 export const Input = styled.input`
-  max-width: 380px;
+  max-width: 340px;
   width: 100%;
   border: 0;
   padding: 10px;
@@ -29,11 +29,14 @@ export const Input = styled.input`
   border-sizing: border-box;
 
   @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
-    height: 30px;
-    margin-top: 5px;
-    padding: 10px 5px 10px 5px;
-    width: 100%;
+    height: 50px;
     box-shadow: none;
+    box-sizing: border-box;
+    border: solid 1px #8c8c8c;
+    border-radius: 2px;
+    display: block;
+    apperance: none;
+    margin-top: 10px;
 }
 `;
 
@@ -53,7 +56,7 @@ export const Button = styled.button`
   }
 
   @media (max-width: 1000px) {
-      height: 50px;
+      height: 42px;
       font-size: 16px;
       margin-top: 20px;
       font-weight: bold;
@@ -96,10 +99,13 @@ export const Text = styled.p`
   
   
   @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
-    padding: 0 2%;
+    padding: 0 5%;
     max-width: 450px;
     margin: 0 auto;
     font-weight: 400;
+    -webkit-box-direction: normal;
+    text-align: center;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
   }
 `;
 

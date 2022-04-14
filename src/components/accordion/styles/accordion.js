@@ -3,6 +3,7 @@ import styled from 'styled-components/macro';
 export const Container = styled.div`
   display: flex;
   border-bottom: 8px solid #222;
+
 `;
 
 export const Inner = styled.div`
@@ -11,6 +12,14 @@ export const Inner = styled.div`
   flex-direction: column;
   max-width: 720px;
   margin: auto;
+
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+    padding: 2px 0;
+    margin-bottom: 35px;
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+  }
 `;
 
 export const Item = styled.div`
@@ -21,6 +30,16 @@ export const Item = styled.div`
   &: first-of-type {
       margin-top: 1.5rem;
   }
+
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+    padding-top: 8px;
+    margin: 0 auto;
+    margin-bottom: 1px;
+    font-weight: 400;
+    position: relative;
+    width: 100%;
+    border: 0
+}
 `;
  
 export const Body = styled.div`
@@ -63,6 +82,11 @@ export const Header = styled.div`
     @media (max-width: 600px) {
       font-size: 16px;
     }
+
+    @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+      font-size: 1.125rem;
+  }
+
 `;
 
 
@@ -78,4 +102,13 @@ export const Title = styled.h1`
   @media (max-width: 600px) {
       font-size: 24px;
   }
+
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+    font-size: 1.625rem;
+    margin: 0 0 0.4em;
+    line-height: 1.1;
+    margin-bottom: 0.2rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 `;
