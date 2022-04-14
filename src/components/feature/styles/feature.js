@@ -6,7 +6,7 @@ export const Container = styled.div`
   text-align: center;
   padding: 110px 45px;
 
-  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) { 
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 300px) and (max-width: 349px) { 
     padding: 95px 0;
     width: 100%;
     max-width: 950px;
@@ -32,7 +32,7 @@ export const Title = styled.h1`
       font-size: 35px;
   }
 
-  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 300px) and (max-width: 349px) {
     font-size: 1.75rem;
     line-height: 1.1;
     text-align: center;

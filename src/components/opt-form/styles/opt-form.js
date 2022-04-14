@@ -13,7 +13,7 @@ export const Container = styled.div`
     
   }
 
-  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 300px) and (max-width: 349px) {
       flex-direction: column;
       align-items: center;
   }
@@ -28,7 +28,7 @@ export const Input = styled.input`
   outline: none;
   border-sizing: border-box;
 
-  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 300px) and (max-width: 349px) {
     height: 50px;
     box-shadow: none;
     box-sizing: border-box;
@@ -72,7 +72,7 @@ export const Button = styled.button`
     }
   }
 
-  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) { 
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 300px) and (max-width: 349px) { 
     font-size: 16px;
     min-height: 40px;
     vertical-align: middle;
@@ -98,7 +98,7 @@ export const Text = styled.p`
   text-align: center;
   
   
-  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 300px) and (max-width: 349px) {
     padding: 0 5%;
     max-width: 450px;
     margin: 0 auto;

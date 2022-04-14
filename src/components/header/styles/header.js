@@ -8,7 +8,7 @@ export const Background = styled.div`
   '../images/misc/home-bg-img.jpg')}) top left / cover no-repeat;
   border-bottom: 8px solid #222;
 
-  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 300px) and (max-width: 349px) {
     top: 0;
     bottom: 0;
     right: 0;
@@ -34,7 +34,7 @@ export const Container = styled.div`
       margin: 0 30px;
   }
 
-  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 300px) and (max-width: 349px) {
     margin: 0 5%;
 }
 `;
@@ -50,7 +50,7 @@ export const Logo = styled.img`
       width: 167px;
   }
 
-  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 300px) and (max-width: 349px) {
     height: 42px;
     width: 50%;
     margin-left: -15px;
@@ -75,7 +75,7 @@ export const ButtonLink = styled(ReactRouterLink)`
       background-color: #f40612;
   }
 
-  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 300px) and (max-width: 349px) {
     font-size: 1rem;
     margin-top: 0.32rem;
     padding: 0.28rem 0.9rem;

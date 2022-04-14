@@ -13,7 +13,7 @@ export const Inner = styled.div`
   max-width: 720px;
   margin: auto;
 
-  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 300px) and (max-width: 349px) {
     padding: 2px 0;
     margin-bottom: 35px;
     text-align: center;
@@ -31,7 +31,7 @@ export const Item = styled.div`
       margin-top: 1.5rem;
   }
 
-  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 300px) and (max-width: 349px) {
     padding-top: 8px;
     margin: 0 auto;
     margin-bottom: 1px;
@@ -53,7 +53,7 @@ export const Body = styled.div`
   font-size: 24px;
   padding: 0.8em 2.2em 0.8em 1.2em;
 
-  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 300px) and (max-width: 349px) {
     font-size: 16px;
 }
 `;
@@ -83,7 +83,7 @@ export const Header = styled.div`
       font-size: 16px;
     }
 
-    @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+    @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 300px) and (max-width: 349px) {
       font-size: 1.125rem;
   }
 
@@ -103,7 +103,7 @@ export const Title = styled.h1`
       font-size: 24px;
   }
 
-  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (max-width: 349px) {
+  @media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 300px) and (max-width: 349px) {
     font-size: 1.625rem;
     margin: 0 0 0.4em;
     line-height: 1.1;
